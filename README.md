@@ -10,4 +10,5 @@ This Beta Version Please report any errors or Bugs
 and also the result on some routers 
 
 + NEW Menu Added to Script 
-+ i think Evrything ic Clear For english Ppl ... 
++ New Attacks Added 
++ Stay Tune 
