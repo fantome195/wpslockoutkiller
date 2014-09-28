@@ -61,13 +61,7 @@ read -p " Please enter The channel  : " channel ;
 while true 
 
 do 
-rm /tmp/interface 2>1 ; 
 
-airmon-ng > /tmp/interface  ;
-
-grep -q mon4 /tmp/interface ;
-if [ $? -eq 0 ] 
- then 
 rm /tmp/cracklog.txt >> /dev/null ; 
 
 
@@ -94,7 +88,7 @@ tail -f /tmp/cracklog.txt &2>1;
 
 sleep 7m
 
-fi
+
 done
 }
 
