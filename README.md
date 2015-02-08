@@ -9,6 +9,8 @@ This Beta Version Please report any errors or Bugs
 
 and also the result on some routers 
 
-+ NEW Menu Added to Script 
++ New Menu Added to Script 
 + New Attacks Added 
-+ Stay Tune 
++ Stay Tuned
+
+All Rights Reserved Hackshow Team 
